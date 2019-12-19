@@ -8,6 +8,6 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-it('will break!', () => {
-  expect(true).toBe(true);
+it('dummy broken test', () => {
+  expect(true).toBe(false);
 });
